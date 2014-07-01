@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/SP2-A/!svn/ver/501/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao
+END
+MediaDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SP2-A/!svn/ver/443/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/MediaDAO.java
+END
+RentalDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SP2-A/!svn/ver/474/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/RentalDAO.java
+END
+RentTransactionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SP2-A/!svn/ver/479/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/RentTransactionDAO.java
+END
+BookDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SP2-A/!svn/ver/477/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/BookDAO.java
+END
+ExcelLoaderDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SP2-A/!svn/ver/466/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/ExcelLoaderDAO.java
+END
+ReservationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SP2-A/!svn/ver/475/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/ReservationDAO.java
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/SP2-A/!svn/ver/256/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/.project
+END
+Top10Hulp.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SP2-A/!svn/ver/461/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/Top10Hulp.java
+END
+ProductDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SP2-A/!svn/ver/436/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/ProductDAO.java
+END
+Statistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/SP2-A/!svn/ver/495/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/Statistics.java
+END
+StringDateSwitcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SP2-A/!svn/ver/493/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/StringDateSwitcher.java
+END
+CopyDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SP2-A/!svn/ver/436/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/CopyDAO.java
+END
+AdressDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SP2-A/!svn/ver/436/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/AdressDAO.java
+END
+MeetingRoomDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/SP2-A/!svn/ver/497/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/MeetingRoomDAO.java
+END
+DatabaseConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/SP2-A/!svn/ver/436/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/DatabaseConnection.java
+END
+MediaCopyDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/SP2-A/!svn/ver/501/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/MediaCopyDAO.java
+END
+FineDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SP2-A/!svn/ver/470/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/FineDAO.java
+END
+MemberDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/SP2-A/!svn/ver/457/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/MemberDAO.java
+END
+BookCopyDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/SP2-A/!svn/ver/436/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/BookCopyDAO.java
+END
+RateDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/SP2-A/!svn/ver/436/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/RateDAO.java
+END
+StaffDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/SP2-A/!svn/ver/436/trunk/Bib_Soft_Compleet_Maven_Integration/src/main/java/dao/StaffDAO.java
+END

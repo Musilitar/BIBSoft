@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<synth>
+<!-- Style that all regions will use -->
+  <style id="standard">
+    <!-- Make all the regions opaque-->
+    <opaque value="TRUE"/>
+    <font name="Dialog" size="16"/>
+    <state>
+      <color value="WHITE" type="BACKGROUND"/>
+      <color value="BLACK" type="FOREGROUND"/>
+    </state>
+  </style>
+  <bind style="standard" type="region" key=".*"/>
+  
+<!-- Style for textfields -->  
+  <style id="textfield">
+    <insets top="4" left="6" bottom="4" right="6"/>
+    <state>
+       <color value="#D2DFF2" type="BACKGROUND"/>
+       <color value="#000000" type="TEXT_FOREGROUND"/>
+    </state>
+    <imagePainter method="textFieldBorder" path="../images/textfieldborder.png"
+                  sourceInsets="4 6 4 6" paintCenter="false"/>
+  </style>
+  <bind style="textfield" type="region" key="TextField"/>
+  
+  <style id="passwordfield">
+    <insets top="4" left="6" bottom="4" right="6"/>
+    <imagePainter method="passwordFieldBorder" path="../images/textfieldborder.png"
+                  sourceInsets="4 6 4 6" paintCenter="false"/>
+  </style>
+  <bind style="passwordfield" type="region" key="PasswordField"/>
+  
+  <style id="textarea">
+    <insets top="4" left="6" bottom="4" right="6"/>
+    <imagePainter method="textAreaBorder" path="../images/textfieldborder.png"
+                  sourceInsets="4 6 4 6" paintCenter="false"/>
+  </style>
+  <bind style="textarea" type="region" key="TextArea"/>
+  
+  <style id="scrollbar">
+  </style>
+  <bind style="scrollbar" type="region" key="ScrollBar"/>
+  
+  <style id="arrowbutton">
+  	<state>
+  		<imagePainter method="arrowButtonForeground" path="../images/arrowbuttonnorth.png"
+  				      center="true" direction="north"/>
+  		<imagePainter method="arrowButtonForeground" path="../images/arrowbuttoneast.png"
+  				      center="true" direction="east"/>
+  		<imagePainter method="arrowButtonForeground" path="../images/arrowbuttonsouth.png"
+  				      center="true" direction="south"/>
+  		<imagePainter method="arrowButtonForeground" path="../images/arrowbuttonwest.png"
+  				      center="true" direction="west"/>
+  	</state>
+  </style>
+  <bind style="arrowbutton" type="region" key="ArrowButton"/>
+  
+  <style id="scrollbartrack">
+  	<imagePainter method="scrollBarTrackBackground" path="../images/textfieldborder.png"
+  				  sourceInsets="4 6 4 6" paintCenter="false"/>
+  </style>
+  <bind style="scrollbartrack" type="region" key="ScrollBarTrack"/>
+  
+  <style id="scrollbarthumb">
+  	<imagePainter method="scrollBarThumbBackground" path="../images/scrollbarthumb.png"
+  				  sourceInsets="4 6 4 6" paintCenter="true"/>
+  </style>
+  <bind style="scrollbarthumb" type="region" key="ScrollBarThumb"/>
+  
+<!-- Style for radiobutton -->
+  <style id="radiobutton">
+  	<state value="ENABLED">
+  		<imageIcon id="radionormal" path="../images/radionormal.png"/>
+		<property key="RadioButton.icon" type="idref" value="radionormal"/>
+  	</state>
+  	<state value="SELECTED">
+  		<imageIcon id="radioselected" path="../images/radioselected.png"/>
+		<property key="RadioButton.icon" type="idref" value="radioselected"/>
+  	</state>
+  	<state value="PRESSED">
+  		<imageIcon id="radiopressed" path="../images/radioselected.png"/>
+		<property key="RadioButton.icon" type="idref" value="radiopressed"/>
+  	</state>
+  </style>
+  <bind style="radiobutton" type="region" key="RadioButton"/>
+  
+<!-- Style for combobox -->
+  <style id="combobox">
+  	<state>
+  		<imagePainter method="comboBoxBorder" path="../images/comboborder.png"
+  					  sourceInsets="4 6 4 6"/>
+  	</state>
+  </style>
+  <bind style="combobox" type="region" key="ComboBox"/>
+  
+<!-- Style for buttons --> 
+  <style id="button">
+    <!-- Set size of buttons -->
+    <insets top="10" left="15" bottom="10" right="15"/>
+    <state>
+      <imagePainter method="buttonBackground" path="../images/button.png"
+                    sourceInsets="10 10 10 10" />
+      <font name="Dialog" size="16"/>
+      <color type="TEXT_FOREGROUND" value="#FFFFFF"/>
+    </state>
+              
+    <state value="PRESSED"> 
+      <imagePainter method="buttonBackground" path="../images/button_pressed.png"
+                    sourceInsets="10 10 10 10" />
+    </state>
+            
+    <state value="MOUSE_OVER">    
+      <imagePainter method="buttonBackground" path="../images/button_over.png"
+                    sourceInsets="10 10 10 10" />
+    </state>
+  </style>
+  <bind style="button" type="region" key="Button"/>
+</synth>
